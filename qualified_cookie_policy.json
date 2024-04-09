@@ -1,0 +1,1126 @@
+[
+  {
+    "Vendor Name": "Google",
+    "trackers": [
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "rc::a",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "3a8543e72dcf4a660c730808680509b0c98171afb9b5ba9d0698151c5affee7a4b724da73cf0977f0aa459f04812af9d44c841246198f67f981559c46ca6203e"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "rc::f",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "278c4309c63e4061800492d94000a16d78563a8e4f506c62a9637744befd63d969706817db7c5d6cb83cd9bb54295e08b075f36e4a8d10ca5d7965e8a71a399b"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "rc::c",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "883db1c9b79d02ac0b209ff6067471d97e60cc89d3dc26a32619da7487675bdb565034ae449c97692783f937b8e442ef1f7c96f9a38117cf33bf6a9739bace9f"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "www.google.com_/pagead/1p-user-list/",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "7f0e05d3ef5f1bb6b82648c2eb5400cf544eeba03b12e1b217336e759089784c912ce7e2c847d3c5cfe783e237ae77445913a1ba57a328eecb5029d38ebe8741"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "rc::d-{UID}",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "3c6cda165f1ec3acd9b47c0102ee65413576ea1aa2259cdb076ad22ea6238947f891ea7943fb3204fb718c2181efa7abde1d11f1cf1a0d5d3fc2d030b28e9c9b"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "rc::b",
+        "Tracker domain": "google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "82942cede05ef2b30e8462b1b78743fb7446f081bcb85910b540f566176b22b85572c029568dbc923b134eb8a678ad7238ba868e808bb16c59ca6b454524a0de"
+      },
+      {
+        "Vendor Name": "Google",
+        "vendor tcf id": 755,
+        "Tracker Name": "www.google.fr_/pagead/1p-user-list/9",
+        "Tracker domain": "google.fr",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "621b2658ac3a864ba025035c002bcd832797f2a301d9dec98253e27359dfe6d0ecf0b2e91dadacf6e73ec6f2c7e1ef275fe9d8141cd78e54c11ecc4ca7409ac4"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "YouTube",
+    "trackers": [
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "VISITOR_PRIVACY_METADATA",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "6 Months",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "256e1324f409f7b4269dbd215da28e42015d572a759d2311cbd37a1367b52c12d4b34cf10c86ab2b6c91a8b37a82631d63eea48f1fa1c76516af04b30a574d6e"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "LAST_RESULT_ENTRY_KEY",
+        "Tracker domain": "www.youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "e35551cb40e0a0f345a4bde35b615fa301f3e692b0f78a57c7bf6fac6d5d12c606ac66dc6ff6cbbd2fff4298b176b83fb1f9a2ad4cc9b9c224ea2e81aa1f80cd"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "LogsDatabaseV2:{id}",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "indexed_db",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "93b9b0839ce89852e7b8ee14fa91e40c5a09c8e7ecde10b5c19a0fc034a94bac88422d2322795fb8595fc3c376f47cd2b9767e9e214c418d2ea5d4438fff85d3"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "CONSENT",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "24 Months",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 3, 2, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select basic ads",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "a0005a3e519a98aecebf614d5e6c44bc9fe24365f831305830b3207dcbf5eeca55f5c311944a3e440b1dde41dabf2c65ce6d7e38f922814a653b81fbeefbcc93"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "YtIdbMeta#databases#undefined",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "indexed_db",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "c659bff735ec61cbdfe48f5a46aaee9394ad23ccac9d4cb5fb516bcb3c074a10e1abd2d60c4fd5295ab637dbf2f3d5d76a89e57114fd343085788fde34719c43"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "YSC",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "authentification",
+        "tracker exemption description": "trackers intended to authentification to a service",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "c55a2e2ef58b1a0a2d4ad5b0f46ae746b089921a5b75f5d6695073c8dfeb54a7356551020b2e4255e8036f51024b42acaf48b3dccf2911e0e2de90511faed2a0"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "ytidb::LAST_RESULT_ENTRY_KEY",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "0aefed9a49ffb625ff1761c8ba3179a03809e44e6705d875e1d42f0b9c6abd0f636ad08176ba4a7385d454ac867259d4795d9f45b34f8bf8164beee65e862902"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__sak",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "efa846db259759aa8b10c6e25ba7f88db24b36641df6d6117289891651f4e6fa0d4f0e37cb2e9b47cd752d7956bf15653e988b8201560d43b8b37dee65a8725a"
+      },
+      {
+        "Vendor Name": "YouTube",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "VISITOR_INFO1_LIVE",
+        "Tracker domain": "youtube.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "6 Months",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [3, 1, 2, 4, 6],
+        "Tracker Purposes Names": [
+          "Create a personalised ads profile",
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "f4e56c309acb562a00e32bd0a33875c553f5fd820c84600164d27ea94f41b54b28a7ac3f6290e1b048709d33dfcf6f84639fe9e75b0c8722a086ff932af850ea"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Google Ad Manager",
+    "trackers": [
+      {
+        "Vendor Name": "Google Ad Manager",
+        "vendor tcf id": 755,
+        "Tracker Name": "IDE",
+        "Tracker domain": "doubleclick.net",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "13 Months",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "65072af5d2f2d04b4f5ec203806f8307382f944bdef6fb4b117176f9e8b930e6a3924fe52512231921c433cabdcafcd65cf68a4eefee9aafa6de8df301a5e9c8"
+      },
+      {
+        "Vendor Name": "Google Ad Manager",
+        "vendor tcf id": 755,
+        "Tracker Name": "test_cookie",
+        "Tracker domain": "doubleclick.net",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "e237735ad25e0d60791b45e579b8ef86fd99ae6181d47cce10d718afb34c49ead88c18580edfcefa0230d27bb3f44551ad6d30a5a36e583ddd823ac6179264a8"
+      },
+      {
+        "Vendor Name": "Google Ad Manager",
+        "vendor tcf id": 755,
+        "Tracker Name": "_cookie_test",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "0 Days",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "fd99b04902e3e96e2af224e1dffc3976d63067abd1c891d3b7b55cb2c0a7a1458842dada55beed483eaeb1bd00c0fa3e6b5df440fff78e67979cc630a797b17e"
+      },
+      {
+        "Vendor Name": "Google Ad Manager",
+        "vendor tcf id": 755,
+        "Tracker Name": "_gcl_au",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "3 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "9f6c6a5041d78176890a825311eae57940c0a6a20d28e5f6a9ca92c8d6a51516f391e0d53fcb464568706c4f6d06dd29cb2be6dbb43c376ff316aa72fb974c18"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Xandr, Inc.",
+    "trackers": [
+      {
+        "Vendor Name": "Xandr, Inc.",
+        "vendor tcf id": 32,
+        "Tracker Name": "secure.adnxs.com_/px",
+        "Tracker domain": "secure.adnxs.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "43047a499161bd9fb2623fff48fa641ee8d262f247bde3a6f9667c978b499612cb2dfa968bc58c20e08b59740d8dedcab3080862d2a29b0666d4c431ac0eb907"
+      },
+      {
+        "Vendor Name": "Xandr, Inc.",
+        "vendor tcf id": 32,
+        "Tracker Name": "ib.adnxs.com_/pixie",
+        "Tracker domain": "ib.adnxs.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "e5153c216e1a8274408eac441bfe411022fbab727e48e4f8618d9009b95983439eec10a85697016138312cc04795782f604a2c529023d0fde6dde3d36a6d061e"
+      },
+      {
+        "Vendor Name": "Xandr, Inc.",
+        "vendor tcf id": 32,
+        "Tracker Name": "secure.adnxs.com_/seg",
+        "Tracker domain": "secure.adnxs.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "3d47695174b59e709fe599b2186a05da068cedc2be46e9c0453f14bd5c8961240a8ec7af7454b2489bd2aef4b7daa8965d81c24556773ae4cad98e00e1493e91"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Twitter, Inc.",
+    "trackers": [
+      {
+        "Vendor Name": "Twitter, Inc.",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "analytics.twitter.com_/i/adsct",
+        "Tracker domain": "analytics.twitter.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "24d47aac8fccb73a720c6de3570efdccc8ff43dc7dc15c8d7c3510b7c3081820d65e68f3e1d6bd529ac456c4aa9ac6332cbb892e8c0bfbc2c163ab46d63cad67"
+      },
+      {
+        "Vendor Name": "Twitter, Inc.",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "t.co_/i/adsct",
+        "Tracker domain": "t.co",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "c7496b4e8dfd338270618ed02e424b2d4578764588aef328ba296e23b5b18e5fc2d26c13c7d451845828a4d375b159782bebe3e2abfe561522737ff0289a3096"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Google APIs",
+    "trackers": [
+      {
+        "Vendor Name": "Google APIs",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "adservice.google.com_/ddm/fls/z/dc_p",
+        "Tracker domain": "adservice.google.com",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "3rd Party",
+        "Tracker Type": "pixel",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "7752b60c0dc8a148dc6c87d34bb3c8f3a3dbfaeeb46753193800b823d61ce99fc40a43eb4ef11d91adea81ecd7bc9e48af84c10bb455e14309f2cafd7dd429ca"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Zendesk",
+    "trackers": [
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "ZD-store",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "da74b8c7e6d1dc2d8c0dd3b7c0e90cb4654080c9f0d0d67c879043aab203052488dcfce2560acc9b36c7dcd634326542f4064ca2b0179f037ece52f9bbd40a5f"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__zlcid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "637f02245257ac0e5a0b2277d744336a47e572418305237c0e01471836d8cab25c58b70e5abf1a3735618e85f9cdc182e20056d5ccfc148dee55b33101f44f30"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__zlcstore",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "4917cfd1e5220624eb0c41b543953aa270c165b7d71f22d936d2a99496a844adacda22c30ded6499bfd2c5c14c57dcba62301f2ff3e26ba852f37e323fda1b17"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "ZD-suid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "bef39a60f726d0e50f9079b79e78a7a6f8630a5d77d6f91a10be52bba6e695fca580d2398ab601394957c729f320f0693068d8331f53aebbe556193e49266640"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__zlcmid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "12 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "2f6276bfec8a349a5460ac8a0be434514e1b26941eef135fc1923dfaae112b70e4fd5baec518d6168ae23ac15955e4ce03d6580d69e9d055b429ade3a8aba8ad"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "ZD-settings",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "12ebb97b67e324656a3316cbe9c04830673085119807881f3bf86546c7f1a227d0256b8704a4b35c33f6699b0256c51b22dece5f1fb65800d8c19fdef9aa2806"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__storejs__",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "401abff5c44af57b6059309cddf9f6d3c8c4843788f0af1cedc707365dc06735efef976408cf5a1938fdedf04f83e9a802542e794e6892bf6144f370bd47a393"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__zlcstore",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "61f4fdef76be39fbb957ead057136fd2697e4e75ae4318ed707779de16bd6accae988879598cbfaa07bcfd44efef55cbffa00cb5d07b9b35322d18adab153ef5"
+      },
+      {
+        "Vendor Name": "Zendesk",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "ZD-buid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "4e01592de78428bb0c6c17a307db4d4e43c79b8913af933f2c71715020c5d7fe86d0c0cdec077a3902ccef83348f543cab916eb9b58db70d229ffd0af55b9ffe"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Didomi",
+    "trackers": [
+      {
+        "Vendor Name": "Didomi",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "didomi_token",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "authentification",
+        "tracker exemption description": "trackers intended to authentification to a service",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "33fbf5d8b5ac4f803c2a508a6fb6af9433c9f856c1f8408b0c2643083c277ee8171c01b7e8c5cd96a9b3939aaad6372ea27cffd06d9a8f1d07e3a9c1e8f801a2"
+      },
+      {
+        "Vendor Name": "Didomi",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "euconsent",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "authentification",
+        "tracker exemption description": "trackers intended to authentification to a service",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "9a9545a02e1c7d786c9a469068228ac20e659be6a0d275b3076825cfcd3e7dde052e5fb5ad6528eadae20ce027ddf90c3f9d7375ebf73b127fdeeb0c2ce033e5"
+      },
+      {
+        "Vendor Name": "Didomi",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "euconsent",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "authentification",
+        "tracker exemption description": "trackers intended to authentification to a service",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "e8d6018513bee98b405abd8f3653a5960f278de74de35ba12b05045da7c66c786337e768bea73aa4ae61e8d9928456042e1047a3558398bf0d07e9d0e4905135"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Recaptcha by Google",
+    "trackers": [
+      {
+        "Vendor Name": "Recaptcha by Google",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "_grecaptcha",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "shopping_basket_storage",
+        "tracker exemption description": "trackers intended to store the content of a shopping basket on a commercial site",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "c64b3ed4deb2cfc2c49640fca666cf52949fe7fcd52fe19f7c29b7a84a3be8b5fec513db8a3df0452c69577dfb738a9df63a65966433c3a3a8280b1c8211d019"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Microsoft Advertising",
+    "trackers": [
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetsid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "1 Days",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "fa59b4ef1695e3675cb513a5768ba9537cc88fcf9a3d88c30dc34e86f3af97fc8f0bcb5b7f194d799a71975be60d1a3d877cb8ae7b6069759db6fbfcf1eb76ac"
+      },
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetvid_exp",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "3cacab8c01705d60b9d82a5fa8ff228783d746d152230b77fa000e5081da09b350e2d4a47269cbd5478df66b7d68eee85c91d9d7c9853f992e7449fc196e899b"
+      },
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetsid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "9cad376391b1089714a56c78b43610a365597f5f7efefa75318791cf8eae946e6e0317ea57825ac0acca7a77472db8b0af96d26b62e711fb1d7c82a606480908"
+      },
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetvid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "13 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "5672f7bd8a0b4acc6415cf2bee07ba1f23bd459c060ff28f7019bd17af3c30f873bcedbc8b311ef9387b09709d256a08639e372f9176f06fe68cfc2c207cf90f"
+      },
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetsid_exp",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "00deaf91de08a6d1fbbd669112286ec916d08514aa5690f5b6f3b0bc2277a75797172d520da4dec1927bbab5f68a35c8bc852f9cfb389715775ccfe9d0a19ace"
+      },
+      {
+        "Vendor Name": "Microsoft Advertising",
+        "vendor tcf id": 1126,
+        "Tracker Name": "_uetvid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads"
+        ],
+        "Hash": "c4ab437f88e7780c5aecf8d83c4c856f2b3595dd7087087f280b175d88c7cb7631f257640ae842fe6b5515d6a0d30d3dd04194634a0ab19f60f92609b32e986d"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Upcoop",
+    "trackers": [
+      {
+        "Vendor Name": "Upcoop",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "TS#",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "89ee89e46fba41de4fc2a19cc745251faff52475a0045cff5d191c4791dd8b085a7437dcadcf78062529f56bab2cae862cfb18047355ed0790e35f708a3f4b7d"
+      },
+      {
+        "Vendor Name": "Upcoop",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "BIGipServer#",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "8ffb338962ae7fedc14ee489ff330f4bb465464d1f183cb44675d32a60261d74390d36d2ab4155352be46dac14b17633309f9aecffdcd64f62daa48bf2c7cb93"
+      },
+      {
+        "Vendor Name": "Upcoop",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "wpEmojiSettingsSupports",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "bbb2c7510251ac6289da2fd65782bdbbf273db80ace958180bc2a9b085fbb9d955a0290041593ab11bc211d584d7becaf9b63ca341681088d04ba57438a1e7e4"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "AT Internet",
+    "trackers": [
+      {
+        "Vendor Name": "AT Internet",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "_pcid",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "13 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 8, 10],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Measure content performance",
+          "Develop and improve products"
+        ],
+        "Hash": "c818b4812f8b6165b3c6e41cfd004eb46a93a0bba8f545bd6803cfdc381b55be38408a70177fcf0eb5ec51f9581a0089d6925a2c4781fce146cea7428f5d45c9"
+      },
+      {
+        "Vendor Name": "AT Internet",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "pa_privacy",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "13 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "1cfa245f6b133793115603b0854774aca77afd05356095b96c7c6dda49008e0968006a0ae680bb379f089a61d8364dccfdb1b2a0b4645753f63700ada6dfc385"
+      },
+      {
+        "Vendor Name": "AT Internet",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "_pctx",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "13 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "7df4352907c9a5c69bbad2ad2a9132e5509fce2842e3f9d57f95ba38e18e9da6b4b1b53e2328fad957e6c9ddd05b86a331d090b66684646efd2acb4f9549990f"
+      },
+      {
+        "Vendor Name": "AT Internet",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "pa_user",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 10, 8],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Develop and improve products",
+          "Measure content performance"
+        ],
+        "Hash": "a837b65a9fc04fb47e4797f07ad37938913ad08741993b6c812037c1e3177e1df3941a5e8a5b70bc1f0c213feb4c3945e24116d547215b97f0ace3c1f566a182"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "Facebook Ads",
+    "trackers": [
+      {
+        "Vendor Name": "Facebook Ads",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "lastExternalReferrer",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "ea11f3b0eb98115abc0a54deb089566f68abf0e21f308e15b589dc830f1a034407fb2852f271a7f28988d355079f3fe4810ce64b5d026f4a18f0caa4e44c8cdb"
+      },
+      {
+        "Vendor Name": "Facebook Ads",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "lastExternalReferrerTime",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "variable / session",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "web_storage",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "6c68d6c691ceef8ffd6c67a1e25f7e3de715e1a0148a3bf9c30c3f427b00e72e04385c97124686ad257ee0317df4f04827f40839277f37e756d1e309d4fe0616"
+      },
+      {
+        "Vendor Name": "Facebook Ads",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "_fbp",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Not exempted",
+        "tracker exemption title": "",
+        "tracker exemption description": "",
+        "Life Time": "3 Months",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1, 2, 3, 4, 6],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device",
+          "Select basic ads",
+          "Create a personalised ads profile",
+          "Select personalised ads",
+          "Select personalised content"
+        ],
+        "Hash": "242a95c8d7e171f9a4afc4d256cec198dd969947d1a2d29be1f3f45e5aa0c01a7a99eebb5ff8be3926cc1b03a50af58d97d45a2a4b9cc51d0ae16d7b54e17436"
+      }
+    ]
+  },
+  {
+    "Vendor Name": "CloudFlare",
+    "trackers": [
+      {
+        "Vendor Name": "CloudFlare",
+        "vendor tcf id": "Not in TCF",
+        "Tracker Name": "__cf_bm",
+        "Tracker domain": "up.coop",
+        "tracker exemption": "Exempted",
+        "tracker exemption title": "load_balancing",
+        "tracker exemption description": "trackers that make a balancing of the volume of equipments contributing to a communication service ",
+        "Life Time": "0 Days",
+        "1st Party/ 3rd Party": "1st Party",
+        "Tracker Type": "cookie",
+        "Tracker Purposes Ids": [1],
+        "Tracker Purposes Names": [
+          "Store and/or access information on a device"
+        ],
+        "Hash": "4cb9145bd26605893304cfa9c7bb90693bcf29e1821f7cd838a496506dc290613bb159537be45da470fe2f8e2f0447a635a36511365fbea4fbef9d25bb6a9e72"
+      }
+    ]
+  }
+]

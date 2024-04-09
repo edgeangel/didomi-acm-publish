@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--link rel="stylesheet" href=""-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+        }
+        
+        h2 {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div id="tracker-list"></div>
+    <script>
+        var json_export = {};
+        var json_purposes = {};
+
+        function exportListener() {
+            json_export = JSON.parse(this.responseText);
+
+            var reqPurposes = new XMLHttpRequest();
+            reqPurposes.addEventListener("load", purposesListener);
+            //Get local content for TCF FR purposes available on https://vendor-list.consensu.org/v3/purposes.json
+            reqPurposes.open("GET", "./purposes-fr.json");
+            //reqPurposes.setRequestHeader("Access-Control-Allow-Headers", "*");
+            reqPurposes.send();
+            //console.log(json_export);
+        }
+
+        function purposesListener() {
+            json_purposes = JSON.parse(this.responseText);
+            //console.log(json_purposes);
+            readWriteData();
+        }
+
+        function findStack(purposes_ids) {
+            //console.log(purposes_ids);
+            var found = false;
+
+            //Remove "1" from purposes_ids to match purposes (not needed)
+            purposes_ids = purposes_ids.filter(function(e) {
+                return e !== 1;
+            });
+
+            //Sort purposes_id to match purposes (source is not always sorted)
+            purposes_ids = purposes_ids.sort(function(a, b) {
+                return a - b
+            });
+
+            //Workaround for personalized ads stacks ([2, 3, 4, 6] is missing from the list)
+            if (purposes_ids.toString() === "2,3,4,6") purposes_ids = [2, 3, 4, 7];
+
+            for (var purposes_key_lvlstacks in json_purposes["stacks"]) {
+                //console.log(json_purposes["stacks"][purposes_key_lvlstacks]["purposes"]);
+                if (json_purposes["stacks"][purposes_key_lvlstacks]["purposes"].toString() == purposes_ids.toString()) {
+                    //console.log("GOT IT : " + purposes_ids + " - " + json_purposes["stacks"][purposes_key_lvlstacks]["name"]);
+                    return purposes_key_lvlstacks;
+                }
+            }
+            //Not found
+            return -1;
+        }
+
+        //Liste of purposes and their category (not final/may be challenged)
+        var stacks_category = {
+            "1": "Fonctionnalités et sécurité",
+            "2": "Publicité",
+            "3": "Publicité",
+            "4": "Publicité",
+            "5": "Personnalisation",
+            "6": "Personnalisation",
+            "7": "Publicité",
+            "8": "Mesure d'audience",
+            "9": "Mesure d'audience",
+            "10": "Mesure d'audience",
+            "11": "Fonctionnalités et sécurité"
+        };
+
+        //Read JSON, Inject HTML content with their merged data
+        function readWriteData() {
+            var html_data = "";
+            for (var export_key_lvl1 in json_export) {
+                html_data += "<h1>" + json_export[export_key_lvl1]["Vendor Name"] + "</h1>";
+                for (var i = 0; i < json_export[export_key_lvl1]["trackers"].length; i++) {
+                    html_data += "<h2>Nom du traceur : " + json_export[export_key_lvl1]["trackers"][i]["Tracker Name"] + "</h2>";
+                    html_data += "<ul>";
+                    html_data += "<li><strong>Type</strong> : " + json_export[export_key_lvl1]["trackers"][i]["Tracker Type"] + "</li>";
+                    html_data += "<li><strong>Domaine</strong> : " + json_export[export_key_lvl1]["trackers"][i]["Tracker domain"] + "</li>";
+                    html_data += "<li><strong>Durée</strong> : " + json_export[export_key_lvl1]["trackers"][i]["Life Time"].replace("Months", "Mois").replace("Days", "Jour(s)") + "</li>";
+                    html_data += "<li><strong>Portée</strong> : " + (json_export[export_key_lvl1]["trackers"][i]["1st Party/ 3rd Party"] === "1st Party" ? "First party" : "Tiers") + "</li>";
+                    html_data += "<li><strong>Exemption</strong> : " + (json_export[export_key_lvl1]["trackers"][i]["tracker exemption"] === "Exempted" ? "Exempté" : "Non exempté") + "</li>";
+                    
+                    //Get the global purpose (stacks) from purposes JSON
+                    html_data += "<li><strong>Finalité globale</strong> : " + json_purposes["stacks"][findStack(json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"])]["name"] + "</li>";
+                    html_data += "<li><strong>Description</strong> : " + json_purposes["stacks"][findStack(json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"])]["description"] + "</li>";
+                    html_data += "</ul>";
+                    
+                    //Related categories (to be challenged)
+                    html_data += "<strong>Catégories de finalité</strong>";
+                    html_data += "<ul>";
+                    var tmp_data = [];
+                    var j = 0;
+                    //Prevent adding a required category to not required one (like ads), but keep it for required category with 1 purpose
+                    if (json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"].toString() !== 1) {
+                        tmp_data.push(stacks_category["1"]);
+                    }
+                    for (var j = 0; j < json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"].length; j++) {
+                        if (tmp_data.indexOf(stacks_category[json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"][j]]) === -1) {
+                            html_data += "<li><strong>Catégorie</strong> : " + stacks_category[json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"][j]] + "</li>";
+                            tmp_data.push(stacks_category[json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"][j]]);
+                        }
+                    }
+                    html_data += "</ul>";
+
+                    //Detailled purposes (purposes) from purposes JSON
+                    html_data += "<strong>Liste des finalités en détail</strong>";
+                    html_data += "<ul>";
+                    for (var k = 0; k < json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"].length; k++) {
+                        html_data += "<li><strong>Finalité (" + (k + 1) + ")</strong> : " + json_purposes["purposes"][json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"][k]]["name"] + "</li>";
+                        html_data += "<li><strong>Description</strong> : " + json_purposes["purposes"][json_export[export_key_lvl1]["trackers"][i]["Tracker Purposes Ids"][k]]["description"] + "</li>";
+                    }
+                    html_data += "</ul>";
+                }
+                document.getElementById("tracker-list").innerHTML = html_data;
+            }
+        }
+
+        var reqExport = new XMLHttpRequest();
+        reqExport.addEventListener("load", exportListener);
+        reqExport.open("GET", "./qualified_cookie_policy.json");
+        //reqExport.setRequestHeader("Access-Control-Allow-Headers", "*");
+        reqExport.send();
+
+    </script>
+</body>
+
+</html>
